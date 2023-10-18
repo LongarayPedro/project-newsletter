@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="icon" href="./src/img/favicon-32x32.png">
+    <title>Newsletter</title>
+</head>
+<body>
+    <div class="card">
+        <section class="info">
+            <h1> Stay updated!</h1>
+            <P>Join 60.000+ product mangegers reciving monthly updates on:
+            </P>
+            <ul>
+                <li> products discovery and building what matters</li>
+                <li> measuring to ensure updates are a sucess</li>
+                <li> and much more!</li>
+            </ul>
+            <form class="emailImput">
+                <label for="email">Email address</label>
+                <input type="email" patterm="[^ @]*@[^ @]" placeholder="email@company.com" id="email">
+                <button type="submit" class="btn">Subscrybe to montly Newsletter</button>
+            </form>
+        </section>
+        <section class="ilustration">
+            <img src="./src/img/illustration-sign-up-desktop.svg" alt="ilustration">
+        </section>
+    </div>
+    <div class="card2 hide">
+        <img src="./src/img/icon-success.svg" alt="sucess">
+        <h2>Tanks for subiscribing!</h2>
+        <p>A confirmation email has been sent to .... Please open it and click the button inside to confirm your subscription.</p>
+        <button class="dismissBtn">Dismiss message</button>
+    </div>
+    
+</body>
+
+<script src="./src/js/index.js"></script>
+</html>
